@@ -1,0 +1,61 @@
+OVERVIEW
+========
+
+This project is a digital lock. As the user inputs characters using the keypad,
+LEDs will be lit. After four keys are pressed, all LEDs will be lit if the code
+was correct. Otherwise, all LEDs will be turned off.
+
+
+COMPILING
+=========
+
+To build this project, simply run the Make utility.
+
+$ make
+
+
+INSTALLING
+==========
+
+To install the code to the ATMega32, we once again use Make.
+
+$ make install
+
+
+HARDWARE
+========
+
+Attach PORTA to SWITCHES, PORTB to LEDS, and PORTC to the keypad.
+
+
+RUNNING
+=======
+
+The program will begin running automatically after running 'make install'. To
+restart the program, hit the RESET switch on the development board.
+
+
+SIZE
+====
+
+As part of this assignment, we were asked to determine the size in bytes of
+each function used in this project. This data is most easily presented in a
+table.
+
++-------------+------+
+| FUNCTION    | SIZE |
++-------------+------+
+| ???         |    ? |
++-------------+------+
+
+
+DOCUMENTATION
+=============
+
+The manual for the ATMega32 is at http://www.atmel.com/Images/doc2503.pdf
+
+
+CREDITS
+=======
+
+Written by Mason Fabel on 10 February 2016.
