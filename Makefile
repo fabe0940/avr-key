@@ -20,7 +20,9 @@ $(APPLICATION_NAME) : $(OBJ)
 %.o : %.c
 	$(CC) $(CFLAGS) -c $<
 
-avr-key.c : 
+avr-key.c : key.h io.h state.h
+key.c : key.h
+io.c : io.h
 
 clean :
 	\rm -f $(APPLICATION_NAME) $(APPLICATION_NAME).hex $(OBJ)

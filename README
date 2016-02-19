@@ -25,7 +25,7 @@ $ make install
 HARDWARE
 ========
 
-Attach PORTA to SWITCHES, PORTB to LEDS, and PORTC to the keypad.
+Attach PORTA to SWITCHES, PORTB to LEDS, and PORTD to the keypad.
 
 
 RUNNING
@@ -45,7 +45,12 @@ table.
 +-------------+------+
 | FUNCTION    | SIZE |
 +-------------+------+
-| ???         |    ? |
+| init        |   24 |
+| keyInit     |  104 |
+| io_in       |  142 |
+| io_out      |  152 |
+| main        |  286 |
+| getKey      |  288 |
 +-------------+------+
 
 
